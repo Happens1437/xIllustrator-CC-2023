@@ -9,7 +9,7 @@ module.exports = {
 
       colors: {
         mainPurple: '#7D47EF',
-        reviewPurple: '#874FFF',
+        reviewPurple: '#ae73fe',
         textGray: '#737373',
         textBlack: '#000000',
         fadedPurple: '#7D47EF',

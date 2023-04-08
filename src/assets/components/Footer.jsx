@@ -34,24 +34,24 @@ const Footer = () => {
                     </form>
 
                     <div id="socials" className=" w-full flex justify-between mt-72">
-                        <a href="">
+                        <a href="" className=" p-3 transition duration-300 ease-linear hover:bg-textBlack/10 rounded-md bg-blend-multiply">
                             <img src={instagram} alt="instagram" className=" cursor-pointer" />
                         </a>
 
-                        <a href="">
+                        <a href="" className=" p-3 transition duration-300 ease-linear hover:bg-textBlack/10 rounded-md bg-blend-multiply">
                             <img src={twitter} alt="twitter" className=" cursor-pointer" /></a>
 
 
-                        <a href="">
+                        <a href="" className=" p-3 transition duration-300 ease-linear hover:bg-textBlack/10 rounded-md bg-blend-multiply">
                             <img src={meta} alt="meta" className=" cursor-pointer" />
                         </a>
 
 
-                        <a href="">
+                        <a href="" className=" p-3 transition duration-300 ease-linear hover:bg-textBlack/10 rounded-md bg-blend-multiply">
                             <img src={linkedin} alt="linkedin" className=" cursor-pointer" />
 
                         </a>
-                        <a href="">
+                        <a href="" className=" p-3 transition duration-300 ease-linear hover:bg-textBlack/10 rounded-md bg-blend-multiply">
                             <img src={slack} alt="slack" className=" cursor-pointer" />
 
                         </a>

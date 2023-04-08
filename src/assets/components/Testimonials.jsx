@@ -1,5 +1,7 @@
 import React from 'react'
+import seyi from '../images/seyi.png'
 import janella from '../images/janella.png'
+import kingston from '../images/kingston.png'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -38,11 +40,11 @@ const Testimonials = () => {
                     <div id="review-2" className=' bg-reviewPurple w-fit my-14 mx-auto py-16 px-8 rounded-lg cursor-pointer'>
                         <h6 className=' font-overpass text-background text-lg text-center max-w-xs mx-auto font-bold'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"</h6>
                         <div id="reviewer" className=' mt-10 w-fit mx-auto flex items-center justify-center gap-4'>
-                            <img src={janella} />
+                            <img src={seyi} />
 
                             <div className=' font-overpass text-left max-w-sm mx-auto'>
-                                <p className=' text-background font-bold'>Janella</p>
-                                <p className=' uppercase text-white font-bold'>Luton</p>
+                                <p className=' text-background font-bold'>Seyi</p>
+                                <p className=' uppercase text-white font-bold'>Ikechukwu</p>
                             </div>
                         </div>
                     </div>
@@ -52,11 +54,11 @@ const Testimonials = () => {
                     <div id="review" className=' bg-white w-fit my-14 mx-auto py-16 px-8 rounded-lg cursor-pointer'>
                         <h6 className=' font-overpass text-mainPurple text-lg text-center max-w-xs mx-auto font-bold'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"</h6>
                         <div id="reviewer" className=' mt-10 w-fit mx-auto flex items-center justify-center gap-4'>
-                            <img src={janella} />
+                            <img src={kingston} />
 
                             <div className=' font-overpass text-left max-w-sm mx-auto'>
-                                <p className=' text-textBlack font-bold'>Janella</p>
-                                <p className=' uppercase text-mainPurple font-bold'>Luton</p>
+                                <p className=' text-textBlack font-bold'>Adams</p>
+                                <p className=' uppercase text-mainPurple font-bold'>Kingston</p>
                             </div>
                         </div>
                     </div>
